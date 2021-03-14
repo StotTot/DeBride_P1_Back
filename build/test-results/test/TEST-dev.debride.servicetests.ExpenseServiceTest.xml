@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.debride.servicetests.ExpenseServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-14T03:11:57" hostname="ATHENA" time="0.271">
+  <properties/>
+  <testcase name="update_request()" classname="dev.debride.servicetests.ExpenseServiceTest" time="0.271"/>
+  <system-out><![CDATA[Hibernate: update expense set amount=?, date_approved_or_denied=?, e_id=?, reason=?, status=?, date_submitted=? where expense_id=?
+Expense{id=2, amount=10.0, reason='mockito', status='approved', submitted=0, approvedordenied=1615691517, employeeId=1}
+Hibernate: update expense set amount=?, date_approved_or_denied=?, e_id=?, reason=?, status=?, date_submitted=? where expense_id=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
