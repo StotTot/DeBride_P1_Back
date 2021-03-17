@@ -14,7 +14,7 @@ public class JwtUtil {
 
 
 
-    private static final String secret ="super secret string noone else should ever have";
+    private static final String secret ="super secret string no one else should ever have";
     private static final Algorithm algorithm = Algorithm.HMAC256(secret);
 
     private static EmployeeService employeeService = new EmployeeServiceImpl(new EmployeeDaoHibernate());
