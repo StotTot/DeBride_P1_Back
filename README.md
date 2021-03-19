@@ -7,15 +7,21 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 **Technologies Used**
 
 Java 15
+
 PostgreSQL
+
 Hibernate
+
 Javalin
-JUnit
+
+JUnit 5
+
 Angular
 
 **Features**
 
 Create requests
+
 As a managaer they can approve/deny requests
 
 
