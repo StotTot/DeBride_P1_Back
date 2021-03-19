@@ -36,21 +36,17 @@ Fill in the blanks with your own information.
     <session-factory>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <property name="hibernate.connection.url">jdbc:postgresql://[your ip with port here]/[name of your database]</property>
-        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         
-		<property name="hibernate.connection.username">[your username for the database]</property>
-        <property name="hibernate.connection.password">[your password for the dataabase]</property>
-        
-      <!-- <property name="hibernate.hbm2ddl.auto">create-drop</property>  -->
-         <!-- create drop mode will automatically drop and recreate your tables whenever you create a sessionFactory
-         this is entirely a devlopment/testing feature NEVER have this in a completed application -->
-        <property name="hibernate.show_sql">true</property>
+<property name="hibernate.connection.username">[your username for the database]</property>
+<property name="hibernate.connection.password">[your password for the dataabase]</property>
+<property name="hibernate.show_sql">true</property>
 
-        <mapping class="dev.debride.entities.Employee"></mapping>
-        <mapping class="dev.debride.entities.Expense"></mapping>
+<mapping class="dev.debride.entities.Employee"></mapping>
+<mapping class="dev.debride.entities.Expense"></mapping>
 
 
-    </session-factory>
+</session-factory>
 </hibernate-configuration>
 
 
