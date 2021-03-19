@@ -1,9 +1,11 @@
 **Backend For Expense Reimbursement System**
 
 **Project Description**
+
 The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.
 
 **Technologies Used**
+
 Java 15
 PostgreSQL
 Hibernate
@@ -12,11 +14,13 @@ JUnit
 Angular
 
 **Features**
+
 Create requests
 As a managaer they can approve/deny requests
 
 
 **Getting Started**
+
 git clone https://github.com/StotTot/DeBride_P1_Back.git
 
 Be sure to include BOTH Windows and Unix command
